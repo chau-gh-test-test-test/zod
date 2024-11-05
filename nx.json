@@ -46,10 +46,16 @@
   },
   "defaultBase": "main",
   "namedInputs": {
-    "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"],
-    "default": ["sharedGlobals"]
+    "sharedGlobals": [
+      "{workspaceRoot}/.github/workflows/ci.yml"
+    ],
+    "default": [
+      "sharedGlobals"
+    ]
   },
   "plugins": [
     "@nx/powerpack-enterprise-cloud"
-  ]
+  ],
+  "nxCloudId": "672a85d6524c263cffb7a988",
+  "nxCloudUrl": "https://staging.nx.app"
 }
