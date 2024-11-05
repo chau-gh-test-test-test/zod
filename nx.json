@@ -1,0 +1,48 @@
+{
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "targetDefaults": {
+    "lint:check": {
+      "cache": true
+    },
+    "build": {
+      "cache": true
+    },
+    "build:deno": {
+      "cache": true
+    },
+    "build:esm": {
+      "cache": true
+    },
+    "build:cjs": {
+      "cache": true
+    },
+    "build:types": {
+      "cache": true
+    },
+    "build:test": {
+      "cache": true
+    },
+    "test": {
+      "cache": true
+    },
+    "test:babel": {
+      "cache": true
+    },
+    "test:bun": {
+      "cache": true
+    },
+    "test:vitest": {
+      "cache": true
+    },
+    "test:ts-jest": {
+      "cache": true
+    },
+    "test:swc": {
+      "cache": true
+    },
+    "test:deno": {
+      "cache": true
+    }
+  },
+  "defaultBase": "main"
+}

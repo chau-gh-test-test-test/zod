@@ -12,3 +12,8 @@ deno/lib/playground.ts
 workspace.code-workspace
 .netlify
 bun.lockb
+
+
+
+.nx/cache
+.nx/workspace-data
